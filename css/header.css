@@ -1,0 +1,44 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: rgba(12,12,12, 0.9) ;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 995px) {
+  .navbar:not(.top-nav-collapse) {
+    background: rgba(12,12,12, 0.4) !important;
+  }
+}
+
+h1 {
+  letter-spacing: 2px;
+}
+
+h5 {
+  letter-spacing: 1px;
+}
+
+.hr-light {
+  border-top: 2px solid #f7f6f6;
+  width: 1000px;
+}
+
+
